@@ -1,4 +1,4 @@
-input{
+input[type=text]{
     width: 600px;
     height: 40px;
     border-radius: 30px;
@@ -7,6 +7,9 @@ input{
     padding-bottom: 0px;
     margin-right: 200px;
     margin-bottom: 10px;
+    background-image: url ('download2.png');
+    background-position: 10px 10px;
+    
    
     
 
@@ -24,12 +27,11 @@ li{
 }
 
 li a{
-    text-decoration: none;
+    text-decoration: none ;
     padding: 8px;
     float: right;
     color: #523c3cf5;
-    font-size: 13
-    px;
+    font-size: 0.85em;
     
 }
 
@@ -58,23 +60,42 @@ img {
     
 }
 
-.footer li{
-  display: inline;
-  float: left;
-  background-color: #dddddd;
-}
+.footer  {
+    overflow: hidden;
+    border: 1px solid #eee;
+    background-color: #eee;
+    bottom: 0px;
 
-.float-left{
-    float: right;
 }
 
 hr{
     margin-top: 190px;
+   background-color: #eee;
+   border: 0;
+   height:1px;
 }
 
 a.googleapps{
     padding-top: 1px;
 }
+
+button {
+    background-color: #efeded;
+    border: 1px solid #efeded;
+    padding: 10px 10px;
+    margin: 11px 4px;
+    text-align: center;
+    font-size: 13px;
+    color: #757575;
+    font-family: arial  sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.left-link{
+    float: left;
+}
+
 
 
 
